@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62CB73F41DE2C5EF00C66C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CB73F31DE2C5EF00C66C7C /* AppDelegate.swift */; };
+		62CB73F61DE2C5EF00C66C7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CB73F51DE2C5EF00C66C7C /* ViewController.swift */; };
+		62CB73F81DE2C5EF00C66C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CB73F71DE2C5EF00C66C7C /* Assets.xcassets */; };
+		62CB73FB1DE2C5EF00C66C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CB73F91DE2C5EF00C66C7C /* Main.storyboard */; };
+		62CB74031DE2C61E00C66C7C /* ComboBoxDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CB74021DE2C61E00C66C7C /* ComboBoxDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62CB73F01DE2C5EF00C66C7C /* ComboBoxExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComboBoxExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CB73F31DE2C5EF00C66C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62CB73F51DE2C5EF00C66C7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62CB73F71DE2C5EF00C66C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62CB73FA1DE2C5EF00C66C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62CB73FC1DE2C5EF00C66C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62CB74021DE2C61E00C66C7C /* ComboBoxDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComboBoxDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62CB73ED1DE2C5EF00C66C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62CB73E71DE2C5EF00C66C7C = {
+			isa = PBXGroup;
+			children = (
+				62CB73F21DE2C5EF00C66C7C /* ComboBoxExample */,
+				62CB73F11DE2C5EF00C66C7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62CB73F11DE2C5EF00C66C7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62CB73F01DE2C5EF00C66C7C /* ComboBoxExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62CB73F21DE2C5EF00C66C7C /* ComboBoxExample */ = {
+			isa = PBXGroup;
+			children = (
+				62CB73F31DE2C5EF00C66C7C /* AppDelegate.swift */,
+				62CB73F51DE2C5EF00C66C7C /* ViewController.swift */,
+				62CB74021DE2C61E00C66C7C /* ComboBoxDataSource.swift */,
+				62CB73F71DE2C5EF00C66C7C /* Assets.xcassets */,
+				62CB73F91DE2C5EF00C66C7C /* Main.storyboard */,
+				62CB73FC1DE2C5EF00C66C7C /* Info.plist */,
+			);
+			path = ComboBoxExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62CB73EF1DE2C5EF00C66C7C /* ComboBoxExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CB73FF1DE2C5EF00C66C7C /* Build configuration list for PBXNativeTarget "ComboBoxExample" */;
+			buildPhases = (
+				62CB73EC1DE2C5EF00C66C7C /* Sources */,
+				62CB73ED1DE2C5EF00C66C7C /* Frameworks */,
+				62CB73EE1DE2C5EF00C66C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComboBoxExample;
+			productName = ComboBoxExample;
+			productReference = 62CB73F01DE2C5EF00C66C7C /* ComboBoxExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62CB73E81DE2C5EF00C66C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = yourCompany;
+				TargetAttributes = {
+					62CB73EF1DE2C5EF00C66C7C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 62CB73EB1DE2C5EF00C66C7C /* Build configuration list for PBXProject "ComboBoxExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62CB73E71DE2C5EF00C66C7C;
+			productRefGroup = 62CB73F11DE2C5EF00C66C7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62CB73EF1DE2C5EF00C66C7C /* ComboBoxExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62CB73EE1DE2C5EF00C66C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CB73F81DE2C5EF00C66C7C /* Assets.xcassets in Resources */,
+				62CB73FB1DE2C5EF00C66C7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62CB73EC1DE2C5EF00C66C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CB74031DE2C61E00C66C7C /* ComboBoxDataSource.swift in Sources */,
+				62CB73F61DE2C5EF00C66C7C /* ViewController.swift in Sources */,
+				62CB73F41DE2C5EF00C66C7C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62CB73F91DE2C5EF00C66C7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CB73FA1DE2C5EF00C66C7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62CB73FD1DE2C5EF00C66C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62CB73FE1DE2C5EF00C66C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		62CB74001DE2C5EF00C66C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ComboBoxExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.ComboBoxExample.ComboBoxExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62CB74011DE2C5EF00C66C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ComboBoxExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.ComboBoxExample.ComboBoxExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62CB73EB1DE2C5EF00C66C7C /* Build configuration list for PBXProject "ComboBoxExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CB73FD1DE2C5EF00C66C7C /* Debug */,
+				62CB73FE1DE2C5EF00C66C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62CB73FF1DE2C5EF00C66C7C /* Build configuration list for PBXNativeTarget "ComboBoxExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CB74001DE2C5EF00C66C7C /* Debug */,
+				62CB74011DE2C5EF00C66C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62CB73E81DE2C5EF00C66C7C /* Project object */;
+}
