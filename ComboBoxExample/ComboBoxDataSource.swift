@@ -13,20 +13,19 @@ class ComboBoxDataSource: NSObject, NSComboBoxCellDataSource, NSComboBoxDataSour
                   "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico",
                   "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania",
                   "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont",
-                  "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming" ]
+                  "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
     
     func comboBox(_ comboBox: NSComboBox, completedString string: String) -> String? {
         
-        print("SubString=\(string)")
+        print("SubString = \(string)")
         
         for state in states {
             // substring must have less characters then stings to search
-            if string.characters.count < state.characters.count{
+            if string.count < state.count{
                 // only use first part of the strings in the list with length of the search string
-                let statePartialStr = state.lowercased()[state.lowercased().startIndex..<state.lowercased().index(state.lowercased().startIndex, offsetBy: string.characters.count)]
-            
+                let statePartialStr = state.lowercased()[state.lowercased().startIndex..<state.lowercased().index(state.lowercased().startIndex, offsetBy: string.count)]
                 if statePartialStr.range(of: string.lowercased()) != nil {
-                    print("SubString Match=\(state).")
+                    print("SubString Match = \(state)")
                     return state
                 }
             }
